@@ -1,6 +1,6 @@
-# Restricted source data stay local. Keep the directory in Git.
-/data/raw/*
-!/data/raw/.gitkeep
+# Keep licensed or otherwise non-shareable input files in this local-only folder.
+# Shareable original data placed elsewhere under data/raw/ can be committed.
+/data/raw/restricted/
 
 # Python and local environment files.
 __pycache__/
