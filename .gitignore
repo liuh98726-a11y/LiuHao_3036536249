@@ -1,0 +1,17 @@
+# Restricted source data stay local. Keep the directory in Git.
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Python and local environment files.
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local temporary files.
+*.tmp
+*.log
+~$*
